@@ -2,6 +2,11 @@ package javabase.operator_and_if;
 
 import java.util.Scanner;
 
+/**
+ * contains logical operator,bitwise operator,ternary operator,scanner and Switch_case
+ * @author DanielYeee
+ * @version1.0
+ */
 public class Operator {
 
 	public static void main(String[] args) {
@@ -13,7 +18,7 @@ public class Operator {
 		
 	}
 
-	/**
+	/*
 	 * Selection Structure switch_case
 	 * Basic data types can accept byte,short,char,int and their wrapper classes
 	 * Reference data types can accept enumeration,String
@@ -34,7 +39,7 @@ public class Operator {
 		}
 	}
 
-	/**
+	/*
 	 * Selection Structure
 	 */
 	public static void selectionStructure_If() {
@@ -48,7 +53,7 @@ public class Operator {
 			System.out.println("unfortunately");
 	}
 
-	/**
+	/*
 	 * Sanner
 	 * Scanner.close() ,method should be close in ending of main method
 	 */
@@ -59,7 +64,7 @@ public class Operator {
 		System.out.println(s);
 	}
 
-	/**
+	/*
 	 * Ternary Operator
 	 */
 	public static void ternaryOperator() {
@@ -71,7 +76,7 @@ public class Operator {
 		System.out.println("z = " + z);
 	}
 
-	/**
+	/*
 	 * Bitwise Operator
 	 */
 	public static void bitwiseOperators() {
@@ -104,7 +109,7 @@ public class Operator {
 		System.out.println(2 << 3);
 	}
 
-	/**
+	/*
 	 * Logical Operators 
 	 */
 	public static void logicalOperator() {
