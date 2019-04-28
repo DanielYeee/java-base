@@ -2,7 +2,7 @@ package javabase.polymorphism_abstratClass_interface;
 
 public class Abstract_2 {
 	public static void run() {
-		Test d = new Test();
+		Interface_Test d = new Interface_Test();
 		System.out.println(d.num1 + "..." + d.num2);
 		d.method();
 	}
